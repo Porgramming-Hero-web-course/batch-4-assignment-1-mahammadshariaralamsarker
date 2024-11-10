@@ -3,4 +3,3 @@ function countWordOccurrences(sentence, word) {
     var targetWord = word.toLowerCase();
     return wordToArray.filter(function (w) { return w == targetWord; }).length;
 }
-console.log(countWordOccurrences("I love typescript", "typescript"));
