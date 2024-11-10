@@ -6,6 +6,3 @@ interface Profile {
 function updateProfile(profile:Profile, updates:{name?:string,age?:number,email?:string}){
     return { ...profile , ...updates}
 }
-
-const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
-console.log(updateProfile(myProfile, { age: 26 }));
