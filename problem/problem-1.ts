@@ -1,2 +1,9 @@
-console.log("o9");
-console.log("all is ok to complile");
+ function sumArray(numbers:number[]):number{
+    let sum = 0;
+      for(let i=0 ; i<=numbers.length; i++){
+        sum = sum+i;
+
+      }
+      return sum;
+ }
+ console.log(sumArray([1,2,3,4,5]));
